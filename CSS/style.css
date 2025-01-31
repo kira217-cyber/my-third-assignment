@@ -15,7 +15,8 @@
     }
     .navbar-page,
     .navbar-btn,
-    .navbar-title{
+    .navbar-title,
+    .card-hide{
         display: none;
 
         }
@@ -25,5 +26,12 @@
     .hr{
             display: block;
         }
+    #card-hide{
+        display: none;
+    }
+    .hide{
+        display: none;
+    }
+    
     
 }
