@@ -1,0 +1,29 @@
+/* Font */
+
+.Adlam{
+        font-family: "ADLaM Display", serif;
+
+    }
+.Sora{
+        font-family: "Sora", serif;
+    } 
+
+@media screen and (max-width: 576px)  {
+    .menu-icon{
+        display: block;
+        margin-right: 12px;
+    }
+    .navbar-page,
+    .navbar-btn,
+    .navbar-title{
+        display: none;
+
+        }
+    .logo{
+            margin-left: 12px;
+        }
+    .hr{
+            display: block;
+        }
+    
+}
