@@ -21,6 +21,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         tailwind.config = {
           theme: {
@@ -147,6 +148,57 @@
             </div>
           </div>
         </section>
+        <!-- MY Section -->
+         <section class="md:container mx-auto mt-40 px-2">
+          <h1 class="text-[#111111] text-2xl md:text-4xl Adlam mb-16">Buy Pets Food</h1>
+          <div class="grid gap-4 md:gap-8 md:grid-cols-3">
+            <div class="card bg-base-100 w-auto shadow-xl">
+              <figure>
+                <img src="./c1-assets/healthy-fresh-pet-food-ingredients-dark-surface_1150-42125.avif" alt="Shoes" />
+              </figure>
+              <div class="card-body bg-[#FFF9F4]">
+                <h2 class="card-title Sora">Pets food</h2>
+                <p class="Sora">Explore premium selections of cat food, dog food, cat litter, and pet essentials at Pure Pets Food, the leading online pet food supply in Bangladesh.</p>
+                <div class="card-actions justify-end">
+                  <button class="btn bg-[#ffdb268c] Sora px-6 py-4">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="card bg-base-100 w-auto shadow-xl">
+              <figure>
+                <img src="./c1-assets/istockphoto-678257014-612x612.jpg" alt="Shoes" />
+              </figure>
+              <div class="card-body bg-[#FFF9F4]">
+                <h2 class="card-title Sora">Pets food</h2>
+                <p class="Sora">Explore premium selections of cat food, dog food, cat litter, and pet essentials at Pure Pets Food, the leading online pet food supply in Bangladesh.</p>
+                <div class="card-actions justify-end">
+                  <button class="btn bg-[#ffdb268c] Sora px-6 py-4">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="card bg-base-100 w-auto shadow-xl">
+              <figure>
+                <img src="./c1-assets/dog-food-5168940_1280.jpg" alt="Shoes" />
+              </figure>
+              <div class="card-body bg-[#FFF9F4]">
+                <h2 class="card-title Sora">Pets food</h2>
+                <p class="Sora">Explore premium selections of cat food, dog food, cat litter, and pet essentials at Pure Pets Food, the leading online pet food supply in Bangladesh.</p>
+                <div class="card-actions justify-end">
+                  <button class="btn bg-[#ffdb268c] Sora px-6 py-4">Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+         </section>
+         <!-- Animation Section -->
+          <section class="md:container mx-auto mt-40">
+            <div class="animition shadow-lg shadow-orange-600/100 space-x-4 md:space-x-8">
+              <span class="loading loading-bars loading-lg"></span>
+              <div class="animated-text">
+                I am <span></span>
+              </div>
+            </div>
+          </section>
         <!-- Trending Pet Products -->
         <section class="md:bg-[#FFF9F4] mt-40">
           <div class="md:container mx-auto md:pt-40 mb-10">
@@ -315,9 +367,9 @@
             </div>
           </section>
           <!-- Get Pawsome News! -->
-           <section class="p-4">
+           <section class="p-4 relative top-72">
             <section class="md:container mx-auto bg-[#FFF9F4] rounded-2xl">
-              <div class="flex flex-wrap justify-center items-center">
+              <div class="flex flex-wrap justify-center items-center py-4 md:py-0">
                 <div class="md:h-[530px]">
                   <img class="h-full md:relative md:bottom-10" src="./c1-assets/cute-pet-small.png" alt="">
                 </div>
@@ -339,8 +391,30 @@
            </section>
       </main>
       <!-- footer section -->
-      <footer>
-
+      <footer class="bg-[#F9DF8A] ">
+        <section class="footer items-center text-base-content p-10 md:container mx-auto">
+          <nav class="mt-64 md:mt-96">
+            <div class="flex items-center gap-3">
+              <img src="./c1-assets/logo-footer.png" alt="">
+              <h6 class=" Sora text-[20px] text-[#111111] mt-2">Browse<span class="text-[#FFDC26]">4</span>Pets</h6>
+            </div>
+            <p class="text-[#111111b4]">Discover a world of treats, toys, and <br> essentials handpicked for your furry <br> friends</p>
+          </nav>
+          <nav class="md:mt-96 space-y-3">
+            <a class="link link-hover Sora  text-primary-color">Find a pet</a>
+            <a class="link link-hover Sora  text-primary-color">Breeds</a>
+            <a class="link link-hover Sora  text-primary-color">Contact us</a>
+          </nav>
+          <nav class="md:mt-96">
+            <h6 class="Sora  text-primary-color">Follow Us</h6>
+            <div class="grid grid-flow-col gap-4">
+              <a><i class="fa-brands fa-facebook"></i></a>
+              <a><i class="fa-brands fa-instagram"></i></a>
+              <a><i class="fa-brands fa-linkedin"></i></a>
+              <a><i class="fa-brands fa-youtube"></i></a>
+            </div>
+          </nav>
+        </section>
       </footer>
 
 </body>
